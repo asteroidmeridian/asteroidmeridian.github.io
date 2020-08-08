@@ -50,3 +50,9 @@ body {
 	border-radius: 5px;
 	background-color: gainsboro;
 }
+
+#copyright {
+  position: fixed;
+  bottom: 2px;
+  left: 2px;
+}
