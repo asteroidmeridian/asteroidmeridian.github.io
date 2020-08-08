@@ -1,0 +1,52 @@
+body {
+	font-family: 'Abel', sans-serif;
+	font-size: 20px;
+	text-align: center;
+}
+
+#title {
+	font-size: 50px;
+}
+
+#subtitle {
+	font-size: 15px;
+}
+
+#lvls {
+	height: 100%;
+	width: 100%;
+	margin: 5px;
+	margin-top: 15px;
+	display: flex;
+	justify-content: center;
+}
+
+.level {
+	margin: 5px;
+}
+
+#ending-title {
+	margin-top: 25px;
+	font-size: 75px;
+}
+
+#total {
+	display: flex;
+	height: 100px;
+	width: 50%;
+	margin-right: auto;
+	margin-left: auto;
+	border-style: solid;
+	font-size: 70px;
+	justify-content: center;
+}
+
+#submit {
+	width: 200px;
+	height: 50px;
+	font-family: 'Abel', sans-serif;
+	font-size: 30px;
+	border: none;
+	border-radius: 5px;
+	background-color: gainsboro;
+}

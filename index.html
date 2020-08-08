@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<head>
+	<script src="dnd-js.js"></script>
+	<link rel="stylesheet" href="dnd-styles.css">
+	<link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+</head>
+<body onload="domReady()">
+	<div id="title">⟁ SKILL POINT CALCULATOR ⟁</div>
+	<div id="subtitle">✧･ﾟ: *✧･ﾟ:* I made this so we don't have to do math! *:･ﾟ✧*:･ﾟ✧</div>
+	<div id="lvls">
+		<div class="level">
+			<label for="strLvl">Starting level:</label>
+			<input type="text" id="strLvl">
+		</div>
+		<div class="level">
+			<label for="endLvl">Ending level (level you want to get to):</label>
+			<input type="text" id="endLvl">
+		</div>
+	</div>
+	<div id="passions">
+		<div>
+			<input type="radio" id="none" value="none" name="passions" checked="true">
+			<label for="none">Normal?</label>
+			<input type="radio" id="passion" value="passion" name="passions">
+			<label for="passion">Passion?</label>
+			<input type="radio" id="double" value="double" name="passions">
+			<label for="double">Double Passion?</label>
+		</div>
+	</div><br>
+	<div>
+		<button type="submit" id="submit" onclick="pointsNeeded()">Submit!</button>
+	</div>
+	<div id="ending-title">POINTS NEEDED:</div>
+	<div id="total"></div>
+</body>
